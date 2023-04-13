@@ -1,0 +1,14 @@
+#include <stdio.h>
+
+void main()
+{
+  int n,*p;
+  n=25;
+  *p=&n;
+  printf("value of standered variable %d\n",n);
+  printf("adress of standered variable%u\n",&n);
+  printf("value of standered variable%d\n",*p);
+  printf("adress of standered variable%u\n",p);
+  printf("value of pointer is %u\n",p);
+  printf("adress of pointer variable%u\n",&p);
+}
